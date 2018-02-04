@@ -272,7 +272,6 @@ apt-get install -y nodejs
 /usr/bin/npm install -g gulp-cli
 /usr/bin/npm install -g yarn
 /usr/bin/npm install -g grunt-cli
-/usr/bin/npm install -g @angular-cli
 
 # Install MySQL
 echo "mysql-server mysql-server/root_password password secret" | debconf-set-selections
