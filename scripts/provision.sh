@@ -266,12 +266,11 @@ id vagrant
 groups vagrant
 
 # Install Node
-
 apt-get install -y nodejs
-/usr/bin/npm install -g npm
 /usr/bin/npm install -g gulp-cli
 /usr/bin/npm install -g yarn
 /usr/bin/npm install -g grunt-cli
+/usr/bin/npm install --unsafe-perm -g \@angular/cli
 
 # Install MySQL
 echo "mysql-server mysql-server/root_password password secret" | debconf-set-selections
